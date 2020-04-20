@@ -2,7 +2,6 @@ package cligger
 
 import (
 	"io"
-	"sync"
 
 	"github.com/guumaster/logsymbols"
 )
@@ -22,6 +21,3 @@ type Log struct {
 	w io.Writer
 	s *logsymbols.Symbols
 }
-
-var instance *Log
-var once sync.Once

@@ -3,9 +3,13 @@ package cligger
 
 import (
 	"io"
+	"sync"
 
 	"github.com/guumaster/logsymbols"
 )
+
+var instance *Log
+var once sync.Once
 
 func init() { // nolint:gochecknoinits
 	once.Do(func() {
