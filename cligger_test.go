@@ -17,14 +17,14 @@ func TestNewLogger(t *testing.T) {
 	assert.Equal(t, *i.s, logsymbols.CurrentSymbols())
 }
 
-func TestLog_Errorf(t *testing.T) {
+func TestLogErrorf(t *testing.T) {
 	l := NewLogger()
 	e := l.Errorf("wrapper: %w", errors.New("internal"))
 
 	assert.EqualError(t, e, "[✖] wrapper: internal")
 }
 
-func TestLog_EnableColor(t *testing.T) {
+func TestLogEnableColor(t *testing.T) {
 	b := bytes.NewBufferString("")
 	l := NewLoggerWithWriter(b)
 	l.EnableColor()
@@ -38,7 +38,7 @@ func TestLog_EnableColor(t *testing.T) {
 	assert.Equal(t, fmt.Sprintf("[%s] Info color test\n", c.Info), string(s))
 }
 
-func TestLog_NewLoggerWithWriter(t *testing.T) {
+func TestLogNewLoggerWithWriter(t *testing.T) {
 	t.Run("Info", func(t *testing.T) {
 		b := bytes.NewBufferString("")
 		l := NewLoggerWithWriter(b)

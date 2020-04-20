@@ -89,7 +89,7 @@ func main() {
 
 ## Related
 
-- [guumaster/cligger](https://github.com/guumaster/cligger) - Colored symbols for various log levels
+- [guumaster/logsymbols](https://github.com/guumaster/logsymbols) - Colored symbols for various log levels
 
 
 ## Author(s)
