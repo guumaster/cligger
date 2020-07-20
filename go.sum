@@ -4,6 +4,7 @@ github.com/guumaster/cligger v0.3.0 h1:j27S5MnY2uN3XRIPCwe6sGemdlw7O6tpSUebbIHnp
 github.com/guumaster/cligger v0.3.0/go.mod h1:okXhkQDvvtnxC59vv5PlDFNvHnwdwZ9vQf3nAIMpcGs=
 github.com/guumaster/logsymbols v0.3.0 h1:j27S5MnY2uN3XRIPCwe6sGemdlw7O6tpSUebbIHnpBI=
 github.com/guumaster/logsymbols v0.3.0/go.mod h1:okXhkQDvvtnxC59vv5PlDFNvHnwdwZ9vQf3nAIMpcGs=
+github.com/guumaster/logsymbols v0.3.1/go.mod h1:1M5/1js2Z7Yo8DRB3QrPURwqsXeOfgsJv1Utjookknw=
 github.com/mattn/go-isatty v0.0.12 h1:wuysRhFDzyxgEmMf5xjvJ2M9dZoWAXNNr5LSBS7uHXY=
 github.com/mattn/go-isatty v0.0.12/go.mod h1:cbi8OIDigv2wuxKPP5vlRcQ1OAZbq2CE4Kysco4FUpU=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
